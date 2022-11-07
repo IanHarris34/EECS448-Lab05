@@ -1,0 +1,47 @@
+html 	{	
+	background-color: darkgrey;
+	background-image: url("gif1.gif");
+	background-size: 80px;
+	}
+		
+body	{
+	margin: 80px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	background-color: lightgray;
+	
+	color: black;
+	border: 10px solid black;
+	padding: 30px;
+	text-align: left;
+	
+	border-bottom: none;
+	border-top: none;
+}
+
+h2		{
+	margin: auto;
+	font-family: arial;
+}
+
+h3		{
+	font-family: arial;
+}
+
+p:hover	{
+	font-size: 22pt;
+}
+
+a.other	{
+	color: green;
+}
+
+a:hover	{
+	background-color: black;
+	color: white;
+	font-size: 18pt;
+}
+	
+img		{
+	margin: auto;
+}

@@ -1,0 +1,48 @@
+<html>
+	<head>
+		<style>
+			html {background-color: white;}
+		
+			body	{
+				margin: auto;
+				background-color: gray;
+				
+				color: black;
+				border: 10px solid lightgreen;
+				padding: 30px;
+				text-align: center;
+				width: 50%;
+				height: 50%;
+				}
+				
+			img		{
+				margin: auto;
+				//width: 50%;
+				//height 30%;
+			}
+			
+			button	{
+				position: relative;
+				bottom: -20px;
+				width: 80px;
+				height: 30px;
+			}
+				
+		</style>
+		
+		<script type="text/javascript" src="JSDirectory/exercise2.js"> </script>
+	</head>
+
+	<body>
+	<h1>EECS 448 Exercise 2</h1>
+	<img id="img1" src="PicDirectory/pic1.jpg" width="472" height="396" >
+	<img id="img2" src="PicDirectory/pic2.jpg" width="472" height="396" hidden>
+	<img id="img3" src="PicDirectory/pic3.jpg" width="472" height="396" hidden>
+	<img id="img4" src="PicDirectory/pic4.jpg" width="472" height="396" hidden>
+	<img id="img5" src="PicDirectory/pic5.jpg" width="472" height="396" hidden>
+	<br>
+	<button type="button" onclick="previous()" style="float: left;">Previous</button>
+	<button type="button" onclick="next()" style="float: right;">Next</button>
+
+	</body>
+</html>

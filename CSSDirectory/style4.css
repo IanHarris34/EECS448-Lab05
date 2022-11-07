@@ -1,0 +1,37 @@
+html 	{	
+	background-color: darkgrey;
+	}
+		
+body	{
+	margin: auto;
+	background-color: lightgray;
+	width: 50%;
+	height: 50%;
+	position: relative;
+	top: 20%;
+	
+	color: black;
+	border-style: solid;
+	border-width: 10px;
+	border-color: #000000;
+	padding: 30px;
+	text-align: center;
+	
+}
+
+div		{
+	display: inline-block;
+	width: 48%;
+}
+
+p.header	{
+	font-family: arial;
+	font-size: 18pt;
+	font-weight: bold;
+	text-align: center;
+}
+
+Button	{
+	width: 60%;
+	height: 10%;
+}
